@@ -1,7 +1,5 @@
 # Chi Le
 # le000422
-# CSCI 1133 Section 040
-# Assignment 4
 
 PUN_CHARS = '[(.,;:\")]/]!?\n'
 IGNORE_FILE = 'data/ignore_words.txt'
@@ -46,20 +44,16 @@ def save_popular_words(word_frequency, destination_file, k=10):
                 if value == count[-i]:
                     fp.write(str(key)+': '+str(value)+'\n')
 def main():
-    """ Do not change this part. Only modify the functions above. """
     type_arr = ['Fake', 'True']
     for news_type in type_arr:
         source_file = f'data/{news_type}.csv'
         popular_words_file = f'data/{news_type}_popular_words.txt'
-        # Process the file source_file and store every word on a single line 
 
-        # excluding the words in ignore_file
         ignored_words_list = get_words_from_file(IGNORE_FILE)
         word_list = get_words_from_file(source_file, 
 ignored_words_list=ignored_words_list)
         word_frequency = get_word_frequency(word_list)
         # Save the top k most popular words
         save_popular_words(word_frequency, popular_words_file)
-    """ Do not change this part """
 if __name__ == "__main__":
     main()
