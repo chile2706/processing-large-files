@@ -1,0 +1,10 @@
+trump: 80342
+their: 30700
+president: 26490
+people: 26364
+news: 25435
+what: 24980
+would: 23665
+one: 23419
+us: 22971
+when: 21587

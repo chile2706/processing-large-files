@@ -1,0 +1,10 @@
+trump: 46901
+us: 44993
+would: 31650
+reuters: 28255
+president: 25776
+”: 24472
+state: 19226
+government: 18323
+2017: 17851
+house: 17783
