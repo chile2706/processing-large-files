@@ -1,6 +1,6 @@
 # Processing Large Files
 ## Purpose of the Program
-- compare the 10 most popular words of two large files [True.csv and Fake.csv](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) which contain real and fake news articles accordingly to see how these files are different
+- compare the 10 most popular words of two large files [True.csv and Fake.csv](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) from Kaggle which contain real and fake news articles accordingly to see how these files are different
 
 ## Design of the Program
 - Reads the content of both files and counts the number of each word
