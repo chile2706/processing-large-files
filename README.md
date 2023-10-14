@@ -5,10 +5,9 @@
 ## Design of the Program
 - Read the content of both files and counts the number of each word
 - Ignore uninteresting words like **‘the’, ‘is’, ‘in’** in [ignore_words.txt](ignore_words.txt)
-- Create two new files (fake_popular_words.txt and true_popular_words.txt) with the 10 most
-popular words on the corresponding files.
+- Create two new files with the 10 most popular words on the corresponding files.
 
 ## Output of the Program
-[10 most popular words in True.csv](true_popular_words.txt)
+[10 most popular words in True.csv](data/True_popular_words.txt)
 
-[10 most popular words in Fake.csv](fake_popular_words.txt)
+[10 most popular words in Fake.csv](data/Fake_popular_words.txt)
