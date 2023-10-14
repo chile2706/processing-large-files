@@ -10,4 +10,5 @@ popular words on the corresponding files.
 
 ## Output of the Program
 [10 most popular words in True.csv](true_popular_words.txt)
+
 [10 most popular words in Fake.csv](fake_popular_words.txt)
